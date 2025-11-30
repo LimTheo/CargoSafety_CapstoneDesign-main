@@ -1,0 +1,15 @@
+# 의존성 설치
+# ex) YOLOE, OpenCV 등등
+# pip install -r requirements.txt 로 설치 가능
+
+git+https://github.com/THU-MIG/yoloe.git#subdirectory=third_party/CLIP
+git+https://github.com/THU-MIG/yoloe.git#subdirectory=third_party/ml-mobileclip
+#git+https://github.com/THU-MIG/yoloe.git#subdirectory=third_party/lvis-api
+git+https://github.com/THU-MIG/yoloe.git
+opencv-python
+huggingface_hub
+ultralytics
+numpy
+pillow
+matplotlib
+lvis
